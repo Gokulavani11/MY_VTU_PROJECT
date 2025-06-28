@@ -1,19 +1,24 @@
 import React from 'react';
 import{Navbar,Nav,NavDropdown,Container,Image} from 'react-bootstrap';
+import{ LinkContainer} from 'react-router-bootstrap';
 const Header = () => {
     return(
         <header>
 
 <Navbar className="navbar-style" expand="lg">
     <Container>
+      
   
 <Navbar.Brand href="#">
     <Image  className='logo-img-style' src='images/logo.jpg' alt="VTU"  roundedCircle/>
     <h6 className='logo-text-style'>Visvesvaraya Technological University , Belagavi</h6>
     </Navbar.Brand> 
+    
+    
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
   <Nav className="ml-auto">
+    
       <Nav.Link href="#">Home</Nav.Link>
       <Nav.Link href="#link">About us</Nav.Link>
       <NavDropdown title="Academic" id="basic-nav-dropdown">

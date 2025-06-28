@@ -5,6 +5,7 @@ const HomeScreen = () => {
 
     return(
         <>
+       
         <div>
             <marquee> VTU Results 2025 out - Check Exam results here!!!
                 <a href='#'>Click here...</a>Best of Luck!!!
@@ -76,6 +77,7 @@ const HomeScreen = () => {
 
 
         </div>
+       
         </>
 
         
